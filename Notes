@@ -96,3 +96,18 @@ that _ should not be used while importing.
 -BEM (Block Element Modifier) naming convection 
 -entry file is named as styles.scss and partials start with _
 
+set font-size of html to 62.5%, Doing so allows to use rem as 2.2rem which translates
+ to 22px
+
+-  display: flex; every component in that class takes same height and things
+ are stacked left to right
+
+
+
+
+##############Fix cross platform issues of screen size#######
+ <meta name ="viewport" content="width=device-width, initial-scale=1" >
+
+###Add favicon to browser####
+Add below line to html file in head tag
+ <link rel="icon" type="image/png" href ="...path" />
